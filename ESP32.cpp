@@ -262,12 +262,12 @@ void handleCaixa()
     pinMode(4, INPUT);
     pinMode(5, INPUT);
 
-    if (digitalRead(2) == 1)
+    if (digitalRead(23) == 1)
     {
         nivel = 3;
     }
 
-    else if (digitalRead(4) == 1)
+    else if (digitalRead(18) == 1)
     {
         nivel = 2;
     }
